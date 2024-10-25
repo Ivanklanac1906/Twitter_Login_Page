@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <h1>Hello World</h1>
+   <div className='logo-box'>
+  <img src='./x.png' alt='logo' className='logo'/>
+  <h2>Sign In To X</h2>
+ </div>
     </div>
   );
 }
